@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nhập Khẩu Táo Cao Cấp</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; color: #333; }
+        header { background: red; color: white; text-align: center; padding: 20px; }
+        section { padding: 20px; }
+        .products { display: flex; flex-wrap: wrap; gap: 20px; justify-content: center; }
+        .product { border: 1px solid #ddd; padding: 10px; text-align: center; width: 200px; }
+        .order-form, .contact { background: #f4f4f4; padding: 20px; }
+        footer { background: green; color: white; text-align: center; padding: 10px; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Nhập Khẩu Táo Cao Cấp</h1>
+        <p>Trái cây nhập khẩu chất lượng cao</p>
+    </header>
+    
+    <section>
+        <h2>Giới Thiệu</h2>
+        <p>Chúng tôi chuyên nhập khẩu các loại táo cao cấp từ các nước trên thế giới, đảm bảo chất lượng tươi ngon.</p>
+    </section>
+    
+    <section class="products">
+        <div class="product">Golden Gala</div>
+        <div class="product">Queen</div>
+        <div class="product">Granny Smith</div>
+        <div class="product">Dazzle</div>
+        <div class="product">Koru</div>
+        <div class="product">Ambrosia</div>
+    </section>
+    
+    <section class="order-form">
+        <h2>Đặt Hàng</h2>
+        <form>
+            <label for="name">Tên:</label>
+            <input type="text" id="name" name="name" required><br>
+            <label for="phone">Số điện thoại:</label>
+            <input type="text" id="phone" name="phone" required><br>
+            <label for="product">Chọn sản phẩm:</label>
+            <select id="product" name="product">
+                <option value="golden_gala">Golden Gala</option>
+                <option value="queen">Queen</option>
+                <option value="granny_smith">Granny Smith</option>
+                <option value="dazzle">Dazzle</option>
+                <option value="koru">Koru</option>
+                <option value="ambrosia">Ambrosia</option>
+            </select><br>
+            <button type="submit">Gửi Đơn Hàng</button>
+        </form>
+    </section>
+    
+    <section class="contact">
+        <h2>Liên Hệ</h2>
+        <p>Email: contact@fruitimport.vn</p>
+        <p>Hotline: 0123-456-789</p>
+    </section>
+    
+    <footer>
+        <p>&copy; 2025 Nhập Khẩu Táo Cao Cấp - Tươi Ngon, Chất Lượng</p>
+    </footer>
+</body>
+</html>
